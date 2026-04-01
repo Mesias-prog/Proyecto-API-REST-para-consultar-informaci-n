@@ -17,3 +17,10 @@ Instalación y Uso
 1. Clonar el repositorio:
    ```bash
    git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+   
+2. Instalar dependencias:
+pip install fastapi uvicorn pyodbc pydantic
+3.Configurar la cadena de conexión en main.py (DB_CONFIG).
+4. Ejecutar el servidor:
+python main.py
+5. Acceder a la documentación interactiva en http://127.0.0.1:8000/docs.
